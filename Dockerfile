@@ -1,5 +1,5 @@
-FROM python:3.7-alpine
+FROM python:3.8-alpine
 
-MAINTAINER buckket <buckket@cock.li>
+MAINTAINER buckket <felix@buckket.org>
 
-RUN apk add --no-cache gcc python3-dev musl-dev postgresql-dev jpeg-dev zlib-dev tzdata git
+RUN apk add --no-cache gcc python3-dev musl-dev postgresql-dev jpeg-dev zlib-dev libffi-dev tzdata git
